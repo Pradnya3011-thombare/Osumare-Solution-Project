@@ -1,0 +1,43 @@
+/* Add these styles to the existing styles.css file */
+
+/* Task Manager Styles */
+.tasks {
+  padding: 50px 20px;
+}
+
+#task-form {
+  display: flex;
+  gap: 10px;
+}
+
+#task-name {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#task-list li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
